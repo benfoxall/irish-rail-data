@@ -5,3 +5,4 @@ curl https://api.irishrail.ie/realtime/realtime.asmx/getAllStationsXML > station
 git add currentTrains.xml
 git add stations.xml
 
+git commit --no-gpg-sign --author="Scrape Bot <bot@benjaminbenben.com>" -m ":robot: Train data"
