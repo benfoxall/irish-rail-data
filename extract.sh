@@ -43,3 +43,19 @@ git log --pretty=format:"%H %at" -- stations.xml | awk 1 | while read COMMIT TS;
 		echo "Skipping $OUTFILE (already exists)"
 	fi
 done
+
+
+# Convert tmp/stations/*.xml to CSV (after extraction loop)
+for XMLFILE in tmp/stations/*.xml; do
+    TS=$(basename "$XMLFILE" .xml)
+    CSVFILE="tmp/stations/${TS}.csv"
+    if [ ! -f "$CSVFILE" ]; then
+        echo "Converting $XMLFILE to $CSVFILE"
+        xmlstarlet sel -T -t -m '/*[local-name()="ArrayOfObjStation"]/*[local-name()="objStation"]' \
+            -v 'concat('"$TS"',",",./*[local-name()="StationCode"],",",./*[local-name()="StationDesc"],",",./*[local-name()="StationAlias"],",",./*[local-name()="StationLatitude"],",",./*[local-name()="StationLongitude"],",",./*[local-name()="StationId"])' \
+            -n "$XMLFILE" \
+            | awk 'BEGIN {print "Time,StationCode,StationDesc,StationAlias,StationLatitude,StationLongitude,StationId"} {print}' > "$CSVFILE"
+    else
+        echo "Skipping $CSVFILE (already exists)"
+    fi
+done
