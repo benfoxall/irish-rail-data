@@ -3,7 +3,7 @@
 mkdir -p tmp/trains
 
 # Iterate through git log for currentTrains.xml
-git log --pretty=format:"%H %at" -- currentTrains.xml | while read COMMIT TS; do
+git log --pretty=format:"%H %at" -- currentTrains.xml | awk 1 | while read COMMIT TS; do
 	OUTFILE="tmp/trains/${TS}.xml"
 	# Only extract if file doesn't already exist
 	if [ ! -f "$OUTFILE" ]; then
@@ -33,7 +33,7 @@ done
 mkdir -p tmp/stations
 
 # Iterate through git log for stations.xml
-git log --pretty=format:"%H %at" -- stations.xml | while read COMMIT TS; do
+git log --pretty=format:"%H %at" -- stations.xml | awk 1 | while read COMMIT TS; do
 	OUTFILE="tmp/stations/${TS}.xml"
 	# Only extract if file doesn't already exist
 	if [ ! -f "$OUTFILE" ]; then
