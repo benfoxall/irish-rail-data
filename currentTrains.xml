@@ -2,15 +2,6 @@
 <ArrayOfObjTrainPositions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://api.irishrail.ie/realtime/">
   <objTrainPositions>
     <TrainStatus>N</TrainStatus>
-    <TrainLatitude>53.1442</TrainLatitude>
-    <TrainLongitude>-6.06085</TrainLongitude>
-    <TrainCode>E701</TrainCode>
-    <TrainDate>19 Sep 2025</TrainDate>
-    <PublicMessage>E701\nGreystones to Dublin Connolly\nExpected Departure 23:20</PublicMessage>
-    <Direction>Northbound</Direction>
-  </objTrainPositions>
-  <objTrainPositions>
-    <TrainStatus>N</TrainStatus>
     <TrainLatitude>53.3397</TrainLatitude>
     <TrainLongitude>-6.23773</TrainLongitude>
     <TrainCode>D426</TrainCode>
@@ -47,6 +38,15 @@
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
+    <TrainLatitude>53.1442</TrainLatitude>
+    <TrainLongitude>-6.06085</TrainLongitude>
+    <TrainCode>E701</TrainCode>
+    <TrainDate>19 Sep 2025</TrainDate>
+    <PublicMessage>E701\n23:20 - Greystones to Dublin Connolly (5 mins late)\nDeparted Greystones next stop Bray</PublicMessage>
+    <Direction>Northbound</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>R</TrainStatus>
     <TrainLatitude>53.163</TrainLatitude>
     <TrainLongitude>-6.90802</TrainLongitude>
     <TrainCode>A731</TrainCode>
@@ -60,7 +60,16 @@
     <TrainLongitude>-6.11317</TrainLongitude>
     <TrainCode>E262</TrainCode>
     <TrainDate>19 Sep 2025</TrainDate>
-    <PublicMessage>E262\n22:19 - Howth to Bray (2 mins late)\nArrived Killiney next stop Shankill</PublicMessage>
+    <PublicMessage>E262\n22:19 - Howth to Bray (3 mins late)\nDeparted Killiney next stop Shankill</PublicMessage>
+    <Direction>Southbound</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>R</TrainStatus>
+    <TrainLatitude>53.2951</TrainLatitude>
+    <TrainLongitude>-6.13498</TrainLongitude>
+    <TrainCode>E133</TrainCode>
+    <TrainDate>19 Sep 2025</TrainDate>
+    <PublicMessage>E133\n22:33 - Malahide to Greystones (0 mins late)\nArrived Dun Laoghaire next stop Sandycove</PublicMessage>
     <Direction>Southbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -69,17 +78,8 @@
     <TrainLongitude>-6.13498</TrainLongitude>
     <TrainCode>E951</TrainCode>
     <TrainDate>19 Sep 2025</TrainDate>
-    <PublicMessage>E951\n22:52 - Greystones to Howth (0 mins late)\nArrived Dun Laoghaire next stop Salthill and Monkstown</PublicMessage>
+    <PublicMessage>E951\n22:52 - Greystones to Howth (0 mins late)\nDeparted Dun Laoghaire next stop Salthill and Monkstown</PublicMessage>
     <Direction>Northbound</Direction>
-  </objTrainPositions>
-  <objTrainPositions>
-    <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.2954</TrainLatitude>
-    <TrainLongitude>-6.15206</TrainLongitude>
-    <TrainCode>E133</TrainCode>
-    <TrainDate>19 Sep 2025</TrainDate>
-    <PublicMessage>E133\n22:33 - Malahide to Greystones (1 mins late)\nDeparted Salthill and Monkstown next stop Dun Laoghaire</PublicMessage>
-    <Direction>Southbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
@@ -96,7 +96,7 @@
     <TrainLongitude>-6.45233</TrainLongitude>
     <TrainCode>P229</TrainCode>
     <TrainDate>19 Sep 2025</TrainDate>
-    <PublicMessage>P229\n22:30 - Portlaoise to Dublin Heuston (4 mins late)\nArrived Adamstown next stop Kishoge</PublicMessage>
+    <PublicMessage>P229\n22:30 - Portlaoise to Dublin Heuston (4 mins late)\nDeparted Adamstown next stop Kishoge</PublicMessage>
     <Direction>To Dublin Heuston</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -114,7 +114,7 @@
     <TrainLongitude>-6.23773</TrainLongitude>
     <TrainCode>E848</TrainCode>
     <TrainDate>19 Sep 2025</TrainDate>
-    <PublicMessage>E848\n22:42 - Bray to Malahide (4 mins late)\nArrived Grand Canal Dock next stop Dublin Pearse</PublicMessage>
+    <PublicMessage>E848\n22:42 - Bray to Malahide (4 mins late)\nDeparted Grand Canal Dock next stop Dublin Pearse</PublicMessage>
     <Direction>Northbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
