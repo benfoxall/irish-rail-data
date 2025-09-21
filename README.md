@@ -1,6 +1,6 @@
 # irish-rail-data
 
-Git Scraping Irish Rail Realtime APIs
+Git Scraping Irish Rail Realtime APIs.
 
 ### Updating data
 
@@ -19,7 +19,7 @@ watch -n 60 ./collect.sh
 # get the history of `currentTrains.xml` (--since & --until allow filtering by date)
 git log --pretty=format:"%H %at" -- currentTrains.xml
 
-# COMMIT_HASH TIMESTAMP
+# COMMIT_HASH                            TIMESTAMP
 a4b14471f63186a35efca2cb8b3cf280f995fe84 1758448509
 a978eda8791e1aede95d410cbb361775fa93aed0 1758448448
 6c9a6b09fd73001b73c209459773158bc58f3bd2 1758448388
