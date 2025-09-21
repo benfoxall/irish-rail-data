@@ -85,15 +85,6 @@
     <TrainStatus>N</TrainStatus>
     <TrainLatitude>52.6587</TrainLatitude>
     <TrainLongitude>-8.62397</TrainLongitude>
-    <TrainCode>B484</TrainCode>
-    <TrainDate>21 Sep 2025</TrainDate>
-    <PublicMessage>B484\nLimerick to Mallow\nExpected Departure 15:58</PublicMessage>
-    <Direction>To Mallow</Direction>
-  </objTrainPositions>
-  <objTrainPositions>
-    <TrainStatus>N</TrainStatus>
-    <TrainLatitude>52.6587</TrainLatitude>
-    <TrainLongitude>-8.62397</TrainLongitude>
     <TrainCode>B613</TrainCode>
     <TrainDate>21 Sep 2025</TrainDate>
     <PublicMessage>B613\nLimerick to Thurles\nExpected Departure 16:14</PublicMessage>
@@ -146,6 +137,15 @@
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>N</TrainStatus>
+    <TrainLatitude>53.3831</TrainLatitude>
+    <TrainLongitude>-6.4242</TrainLongitude>
+    <TrainCode>D377</TrainCode>
+    <TrainDate>21 Sep 2025</TrainDate>
+    <PublicMessage>D377\nClonsilla to M3 Parkway\nExpected Departure 16:18</PublicMessage>
+    <Direction>Northbound</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>N</TrainStatus>
     <TrainLatitude>54.6123</TrainLatitude>
     <TrainLongitude>-5.91744</TrainLongitude>
     <TrainCode>A157</TrainCode>
@@ -157,19 +157,19 @@
     <TrainStatus>R</TrainStatus>
     <TrainLatitude>0</TrainLatitude>
     <TrainLongitude>0</TrainLongitude>
-    <TrainCode>A220</TrainCode>
+    <TrainCode>A802</TrainCode>
     <TrainDate>21 Sep 2025</TrainDate>
-    <PublicMessage>A220\n16:00 - Dublin Heuston to Thurles (0 mins late)\nDeparted Inchicore Advance Starter next stop Portlaoise</PublicMessage>
-    <Direction>To Thurles</Direction>
+    <PublicMessage>A802\n13:40 - Dublin Heuston to Westport (2 mins late)\nDeparted Athlone Midland Yard next stop Roscommon</PublicMessage>
+    <Direction>To Westport</Direction>
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
     <TrainLatitude>0</TrainLatitude>
     <TrainLongitude>0</TrainLongitude>
-    <TrainCode>A802</TrainCode>
+    <TrainCode>A910</TrainCode>
     <TrainDate>21 Sep 2025</TrainDate>
-    <PublicMessage>A802\n13:40 - Dublin Heuston to Westport (2 mins late)\nDeparted Athlone Midland Yard next stop Roscommon</PublicMessage>
-    <Direction>To Westport</Direction>
+    <PublicMessage>A910\n16:05 - Dublin Connolly to Sligo (0 mins late)\nDeparted North Strand Junction next stop Drumcondra</PublicMessage>
+    <Direction>Northbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
@@ -218,20 +218,11 @@
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.1545</TrainLatitude>
-    <TrainLongitude>-6.96542</TrainLongitude>
-    <TrainCode>A803</TrainCode>
-    <TrainDate>21 Sep 2025</TrainDate>
-    <PublicMessage>A803\n13:20 - Westport to Dublin Heuston (1 mins late)\nDeparted Cherryville Junction next stop Dublin Heuston</PublicMessage>
-    <Direction>To Dublin Heuston</Direction>
-  </objTrainPositions>
-  <objTrainPositions>
-    <TrainStatus>R</TrainStatus>
     <TrainLatitude>53.163</TrainLatitude>
     <TrainLongitude>-6.90802</TrainLongitude>
-    <TrainCode>A707</TrainCode>
+    <TrainCode>A803</TrainCode>
     <TrainDate>21 Sep 2025</TrainDate>
-    <PublicMessage>A707\n13:40 - Galway to Dublin Heuston (12 mins late)\nDeparted Kildare next stop Dublin Heuston</PublicMessage>
+    <PublicMessage>A803\n13:20 - Westport to Dublin Heuston (1 mins late)\nDeparted Kildare next stop Dublin Heuston</PublicMessage>
     <Direction>To Dublin Heuston</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -241,6 +232,15 @@
     <TrainCode>A505</TrainCode>
     <TrainDate>21 Sep 2025</TrainDate>
     <PublicMessage>A505\n14:00 - Waterford to Dublin Heuston (5 mins late)\nDeparted Newbridge next stop Dublin Heuston</PublicMessage>
+    <Direction>To Dublin Heuston</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>R</TrainStatus>
+    <TrainLatitude>53.1855</TrainLatitude>
+    <TrainLongitude>-6.80807</TrainLongitude>
+    <TrainCode>A707</TrainCode>
+    <TrainDate>21 Sep 2025</TrainDate>
+    <PublicMessage>A707\n13:40 - Galway to Dublin Heuston (14 mins late)\nArrived Newbridge next stop Dublin Heuston</PublicMessage>
     <Direction>To Dublin Heuston</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -276,7 +276,7 @@
     <TrainLongitude>-6.21112</TrainLongitude>
     <TrainCode>E219</TrainCode>
     <TrainDate>21 Sep 2025</TrainDate>
-    <PublicMessage>E219\n15:27 - Howth to Bray (0 mins late)\nArrived Sydney Parade next stop Booterstown</PublicMessage>
+    <PublicMessage>E219\n15:27 - Howth to Bray (0 mins late)\nDeparted Sydney Parade next stop Booterstown</PublicMessage>
     <Direction>Southbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -290,21 +290,30 @@
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.3353</TrainLatitude>
-    <TrainLongitude>-6.45233</TrainLongitude>
+    <TrainLatitude>53.3334</TrainLatitude>
+    <TrainLongitude>-6.40628</TrainLongitude>
     <TrainCode>A217</TrainCode>
     <TrainDate>21 Sep 2025</TrainDate>
-    <PublicMessage>A217\n14:43 - Thurles to Dublin Heuston (9 mins late)\nDeparted Adamstown next stop Dublin Heuston</PublicMessage>
+    <PublicMessage>A217\n14:43 - Thurles to Dublin Heuston (8 mins late)\nArrived Clondalkin next stop Dublin Heuston</PublicMessage>
     <Direction>To Dublin Heuston</Direction>
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.3602</TrainLatitude>
-    <TrainLongitude>-7.79847</TrainLongitude>
-    <TrainCode>A706</TrainCode>
+    <TrainLatitude>53.334</TrainLatitude>
+    <TrainLongitude>-6.37868</TrainLongitude>
+    <TrainCode>A220</TrainCode>
     <TrainDate>21 Sep 2025</TrainDate>
-    <PublicMessage>A706\n14:40 - Dublin Heuston to Galway (5 mins late)\nDeparted Clonydonnin next stop Athlone</PublicMessage>
-    <Direction>To Galway</Direction>
+    <PublicMessage>A220\n16:00 - Dublin Heuston to Thurles (0 mins late)\nDeparted Park West and Cherry Orchard next stop Portlaoise</PublicMessage>
+    <Direction>To Thurles</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>R</TrainStatus>
+    <TrainLatitude>53.3629</TrainLatitude>
+    <TrainLongitude>-6.22753</TrainLongitude>
+    <TrainCode>A153</TrainCode>
+    <TrainDate>21 Sep 2025</TrainDate>
+    <PublicMessage>A153\n14:05 - Belfast to Dublin Connolly (-2 mins late)\nDeparted Clontarf Road next stop Dublin Connolly</PublicMessage>
+    <Direction>Southbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
@@ -328,18 +337,9 @@
     <TrainStatus>R</TrainStatus>
     <TrainLatitude>53.373</TrainLatitude>
     <TrainLongitude>-6.20442</TrainLongitude>
-    <TrainCode>A153</TrainCode>
-    <TrainDate>21 Sep 2025</TrainDate>
-    <PublicMessage>A153\n14:05 - Belfast to Dublin Connolly (-3 mins late)\nDeparted Killester next stop Dublin Connolly</PublicMessage>
-    <Direction>Southbound</Direction>
-  </objTrainPositions>
-  <objTrainPositions>
-    <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.373</TrainLatitude>
-    <TrainLongitude>-6.20442</TrainLongitude>
     <TrainCode>E911</TrainCode>
     <TrainDate>21 Sep 2025</TrainDate>
-    <PublicMessage>E911\n15:11 - Bray to Howth (1 mins late)\nArrived Killester next stop Harmonstown</PublicMessage>
+    <PublicMessage>E911\n15:11 - Bray to Howth (1 mins late)\nDeparted Killester next stop Harmonstown</PublicMessage>
     <Direction>Northbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -348,7 +348,7 @@
     <TrainLongitude>-6.39072</TrainLongitude>
     <TrainCode>P745</TrainCode>
     <TrainDate>21 Sep 2025</TrainDate>
-    <PublicMessage>P745\n15:43 - Maynooth to Dublin Connolly (3 mins late)\nArrived Coolmine next stop Castleknock</PublicMessage>
+    <PublicMessage>P745\n15:43 - Maynooth to Dublin Connolly (5 mins late)\nDeparted Coolmine next stop Castleknock</PublicMessage>
     <Direction>Southbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -362,11 +362,11 @@
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.392</TrainLatitude>
-    <TrainLongitude>-6.11448</TrainLongitude>
+    <TrainLatitude>53.3917</TrainLatitude>
+    <TrainLongitude>-6.13678</TrainLongitude>
     <TrainCode>E221</TrainCode>
     <TrainDate>21 Sep 2025</TrainDate>
-    <PublicMessage>E221\n16:02 - Howth to Bray (0 mins late)\nDeparted Sutton next stop Bayside</PublicMessage>
+    <PublicMessage>E221\n16:02 - Howth to Bray (0 mins late)\nArrived Bayside next stop Howth Junction</PublicMessage>
     <Direction>Southbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -377,6 +377,15 @@
     <TrainDate>21 Sep 2025</TrainDate>
     <PublicMessage>A908\n15:05 - Dublin Connolly to Sligo (2 mins late)\nDeparted Enfield next stop Mullingar</PublicMessage>
     <Direction>Northbound</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>R</TrainStatus>
+    <TrainLatitude>53.4273</TrainLatitude>
+    <TrainLongitude>-7.93683</TrainLongitude>
+    <TrainCode>A706</TrainCode>
+    <TrainDate>21 Sep 2025</TrainDate>
+    <PublicMessage>A706\n14:40 - Dublin Heuston to Galway (3 mins late)\nArrived Athlone next stop Ballinasloe</PublicMessage>
+    <Direction>To Galway</Direction>
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
@@ -411,7 +420,7 @@
     <TrainLongitude>-7.9164</TrainLongitude>
     <TrainCode>A911</TrainCode>
     <TrainDate>21 Sep 2025</TrainDate>
-    <PublicMessage>A911\n15:05 - Sligo to Dublin Connolly (4 mins late)\nArrived Dromod next stop Longford</PublicMessage>
+    <PublicMessage>A911\n15:05 - Sligo to Dublin Connolly (3 mins late)\nDeparted Dromod next stop Longford</PublicMessage>
     <Direction>Southbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
