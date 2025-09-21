@@ -28,6 +28,6 @@ cb8cfb5bdda0be0d9aa86e4c246cb0f292b3d122 1758448328
 2c58d2bd41075d4f1a2c490241b2641eadcb8f7d 1758448207
 ...
 
-# read the file contents for the 
-git show ${COMMIT_HASH}:stations.xml
+# read the file contents for a given commit
+git show ${COMMIT_HASH}:currentTrains.xml
 ```
