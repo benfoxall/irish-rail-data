@@ -47,15 +47,6 @@
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>N</TrainStatus>
-    <TrainLatitude>53.3464</TrainLatitude>
-    <TrainLongitude>-6.29461</TrainLongitude>
-    <TrainCode>A202</TrainCode>
-    <TrainDate>23 Sep 2025</TrainDate>
-    <PublicMessage>A202\nDublin Heuston to Cork\nExpected Departure 07:00</PublicMessage>
-    <Direction>To Cork</Direction>
-  </objTrainPositions>
-  <objTrainPositions>
-    <TrainStatus>N</TrainStatus>
     <TrainLatitude>53.3531</TrainLatitude>
     <TrainLongitude>-6.24591</TrainLongitude>
     <TrainCode>D903</TrainCode>
@@ -70,6 +61,15 @@
     <TrainCode>E203</TrainCode>
     <TrainDate>23 Sep 2025</TrainDate>
     <PublicMessage>E203\nDublin Connolly to Bray\nExpected Departure 06:57</PublicMessage>
+    <Direction>Southbound</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>N</TrainStatus>
+    <TrainLatitude>53.378</TrainLatitude>
+    <TrainLongitude>-6.58993</TrainLongitude>
+    <TrainCode>P743</TrainCode>
+    <TrainDate>23 Sep 2025</TrainDate>
+    <PublicMessage>P743\nMaynooth to Dublin Connolly\nExpected Departure 07:09</PublicMessage>
     <Direction>Southbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -121,6 +121,33 @@
     <TrainStatus>R</TrainStatus>
     <TrainLatitude>0</TrainLatitude>
     <TrainLongitude>0</TrainLongitude>
+    <TrainCode>A202</TrainCode>
+    <TrainDate>23 Sep 2025</TrainDate>
+    <PublicMessage>A202\n07:00 - Dublin Heuston to Cork (-7 mins late)\nArrived Inchicore Advance Starter next stop Portlaoise</PublicMessage>
+    <Direction>To Cork</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>R</TrainStatus>
+    <TrainLatitude>0</TrainLatitude>
+    <TrainLongitude>0</TrainLongitude>
+    <TrainCode>A203</TrainCode>
+    <TrainDate>23 Sep 2025</TrainDate>
+    <PublicMessage>A203\n05:40 - Cork to Dublin Heuston (27 mins late)\nArrived LJ895 next stop Limerick Junction</PublicMessage>
+    <Direction>To Dublin Heuston</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>R</TrainStatus>
+    <TrainLatitude>0</TrainLatitude>
+    <TrainLongitude>0</TrainLongitude>
+    <TrainCode>A900</TrainCode>
+    <TrainDate>23 Sep 2025</TrainDate>
+    <PublicMessage>A900\n06:55 - Dublin Connolly to Sligo (1 mins late)\nDeparted North Strand Junction next stop Drumcondra</PublicMessage>
+    <Direction>Northbound</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>R</TrainStatus>
+    <TrainLatitude>0</TrainLatitude>
+    <TrainLongitude>0</TrainLongitude>
     <TrainCode>D505</TrainCode>
     <TrainDate>23 Sep 2025</TrainDate>
     <PublicMessage>D505\n06:50 - Mallow to Cork (0 mins late)\nDeparted Killarney Junction next stop Cork</PublicMessage>
@@ -155,15 +182,6 @@
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
-    <TrainLatitude>52.3468</TrainLatitude>
-    <TrainLongitude>-8.65362</TrainLongitude>
-    <TrainCode>A203</TrainCode>
-    <TrainDate>23 Sep 2025</TrainDate>
-    <PublicMessage>A203\n05:40 - Cork to Dublin Heuston (33 mins late)\nDeparted Charleville next stop Limerick Junction</PublicMessage>
-    <Direction>To Dublin Heuston</Direction>
-  </objTrainPositions>
-  <objTrainPositions>
-    <TrainStatus>R</TrainStatus>
     <TrainLatitude>52.6404</TrainLatitude>
     <TrainLongitude>-8.52719</TrainLongitude>
     <TrainCode>A410</TrainCode>
@@ -186,7 +204,7 @@
     <TrainLongitude>-7.60259</TrainLongitude>
     <TrainCode>A200</TrainCode>
     <TrainDate>23 Sep 2025</TrainDate>
-    <PublicMessage>A200\n06:00 - Dublin Heuston to Cork (8 mins late)\nArrived Ballybrophy next stop Thurles</PublicMessage>
+    <PublicMessage>A200\n06:00 - Dublin Heuston to Cork (8 mins late)\nDeparted Ballybrophy next stop Thurles</PublicMessage>
     <Direction>To Cork</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -258,7 +276,7 @@
     <TrainLongitude>-6.11691</TrainLongitude>
     <TrainCode>E904</TrainCode>
     <TrainDate>23 Sep 2025</TrainDate>
-    <PublicMessage>E904\n06:52 - Bray to Howth (0 mins late)\nArrived Shankill next stop Killiney</PublicMessage>
+    <PublicMessage>E904\n06:52 - Bray to Howth (0 mins late)\nDeparted Shankill next stop Killiney</PublicMessage>
     <Direction>Northbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -308,11 +326,11 @@
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.2991</TrainLatitude>
-    <TrainLongitude>-6.16512</TrainLongitude>
+    <TrainLatitude>53.3027</TrainLatitude>
+    <TrainLongitude>-6.17833</TrainLongitude>
     <TrainCode>E903</TrainCode>
     <TrainDate>23 Sep 2025</TrainDate>
-    <PublicMessage>E903\n06:21 - Greystones to Howth (-1 mins late)\nDeparted Seapoint next stop Blackrock</PublicMessage>
+    <PublicMessage>E903\n06:21 - Greystones to Howth (-3 mins late)\nArrived Blackrock next stop Booterstown</PublicMessage>
     <Direction>Northbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -350,15 +368,6 @@
     <TrainDate>23 Sep 2025</TrainDate>
     <PublicMessage>D201\n06:32 - Dublin Heuston to Newbridge (1 mins late)\nDeparted Hazelhatch next stop Sallins</PublicMessage>
     <Direction>To Newbridge</Direction>
-  </objTrainPositions>
-  <objTrainPositions>
-    <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.3223</TrainLatitude>
-    <TrainLongitude>-6.52356</TrainLongitude>
-    <TrainCode>P201</TrainCode>
-    <TrainDate>23 Sep 2025</TrainDate>
-    <PublicMessage>P201\n06:30 - Kildare to Dublin Heuston (2 mins late)\nDeparted Hazelhatch next stop Adamstown</PublicMessage>
-    <Direction>To Dublin Heuston</Direction>
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
@@ -515,21 +524,12 @@
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.334</TrainLatitude>
-    <TrainLongitude>-6.37868</TrainLongitude>
-    <TrainCode>P400</TrainCode>
+    <TrainLatitude>53.3353</TrainLatitude>
+    <TrainLongitude>-6.45233</TrainLongitude>
+    <TrainCode>P201</TrainCode>
     <TrainDate>23 Sep 2025</TrainDate>
-    <PublicMessage>P400\n06:04 - Newbridge to Grand Canal Dock (0 mins late)\nDeparted Park West and Cherry Orchard next stop Drumcondra</PublicMessage>
-    <Direction>Northbound</Direction>
-  </objTrainPositions>
-  <objTrainPositions>
-    <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.3433</TrainLatitude>
-    <TrainLongitude>-6.24829</TrainLongitude>
-    <TrainCode>E802</TrainCode>
-    <TrainDate>23 Sep 2025</TrainDate>
-    <PublicMessage>E802\n06:12 - Bray to Malahide (0 mins late)\nDeparted Dublin Pearse next stop Tara Street</PublicMessage>
-    <Direction>Northbound</Direction>
+    <PublicMessage>P201\n06:30 - Kildare to Dublin Heuston (1 mins late)\nArrived Adamstown next stop Kishoge</PublicMessage>
+    <Direction>To Dublin Heuston</Direction>
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
@@ -542,11 +542,38 @@
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.3531</TrainLatitude>
-    <TrainLongitude>-6.24591</TrainLongitude>
+    <TrainLatitude>53.347</TrainLatitude>
+    <TrainLongitude>-6.25425</TrainLongitude>
+    <TrainCode>E802</TrainCode>
+    <TrainDate>23 Sep 2025</TrainDate>
+    <PublicMessage>E802\n06:12 - Bray to Malahide (0 mins late)\nArrived Tara Street next stop Dublin Connolly</PublicMessage>
+    <Direction>Northbound</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>R</TrainStatus>
+    <TrainLatitude>53.3629</TrainLatitude>
+    <TrainLongitude>-6.22753</TrainLongitude>
+    <TrainCode>E204</TrainCode>
+    <TrainDate>23 Sep 2025</TrainDate>
+    <PublicMessage>E204\n06:37 - Howth to Bray (-1 mins late)\nArrived Clontarf Road next stop Dublin Connolly</PublicMessage>
+    <Direction>Southbound</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>R</TrainStatus>
+    <TrainLatitude>53.3629</TrainLatitude>
+    <TrainLongitude>-6.22753</TrainLongitude>
     <TrainCode>E801</TrainCode>
     <TrainDate>23 Sep 2025</TrainDate>
-    <PublicMessage>E801\n06:52 - Dublin Connolly to Malahide (1 mins late)\nDeparted Dublin Connolly next stop Clontarf Road</PublicMessage>
+    <PublicMessage>E801\n06:52 - Dublin Connolly to Malahide (3 mins late)\nArrived Clontarf Road next stop Killester</PublicMessage>
+    <Direction>Northbound</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>R</TrainStatus>
+    <TrainLatitude>53.3632</TrainLatitude>
+    <TrainLongitude>-6.25908</TrainLongitude>
+    <TrainCode>P400</TrainCode>
+    <TrainDate>23 Sep 2025</TrainDate>
+    <PublicMessage>P400\n06:04 - Newbridge to Grand Canal Dock (-1 mins late)\nArrived Drumcondra next stop Dublin Connolly</PublicMessage>
     <Direction>Northbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -569,20 +596,11 @@
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.3704</TrainLatitude>
-    <TrainLongitude>-6.50598</TrainLongitude>
+    <TrainLatitude>53.3743</TrainLatitude>
+    <TrainLongitude>-6.48624</TrainLongitude>
     <TrainCode>P651</TrainCode>
     <TrainDate>23 Sep 2025</TrainDate>
-    <PublicMessage>P651\n05:35 - Longford to Dublin Pearse (-1 mins late)\nArrived Leixlip (Louisa Bridge) next stop Leixlip (Confey)</PublicMessage>
-    <Direction>Southbound</Direction>
-  </objTrainPositions>
-  <objTrainPositions>
-    <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.373</TrainLatitude>
-    <TrainLongitude>-6.20442</TrainLongitude>
-    <TrainCode>E204</TrainCode>
-    <TrainDate>23 Sep 2025</TrainDate>
-    <PublicMessage>E204\n06:37 - Howth to Bray (0 mins late)\nDeparted Killester next stop Clontarf Road</PublicMessage>
+    <PublicMessage>P651\n05:35 - Longford to Dublin Pearse (-2 mins late)\nArrived Leixlip (Confey) next stop Clonsilla</PublicMessage>
     <Direction>Southbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -596,20 +614,11 @@
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.3776</TrainLatitude>
-    <TrainLongitude>-6.39072</TrainLongitude>
+    <TrainLatitude>53.3831</TrainLatitude>
+    <TrainLongitude>-6.4242</TrainLongitude>
     <TrainCode>D902</TrainCode>
     <TrainDate>23 Sep 2025</TrainDate>
-    <PublicMessage>D902\n06:32 - Dublin Connolly to Maynooth (0 mins late)\nDeparted Coolmine next stop Clonsilla</PublicMessage>
-    <Direction>Northbound</Direction>
-  </objTrainPositions>
-  <objTrainPositions>
-    <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.3815</TrainLatitude>
-    <TrainLongitude>-6.17699</TrainLongitude>
-    <TrainCode>A102</TrainCode>
-    <TrainDate>23 Sep 2025</TrainDate>
-    <PublicMessage>A102\n06:50 - Dublin Connolly to Belfast (1 mins late)\nDeparted Raheny next stop Drogheda</PublicMessage>
+    <PublicMessage>D902\n06:32 - Dublin Connolly to Maynooth (0 mins late)\nArrived Clonsilla next stop Leixlip (Confey)</PublicMessage>
     <Direction>Northbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -620,6 +629,15 @@
     <TrainDate>23 Sep 2025</TrainDate>
     <PublicMessage>P301\n06:50 - M3 Parkway to Docklands (-1 mins late)\nArrived Hansfield next stop Clonsilla</PublicMessage>
     <Direction>Southbound</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>R</TrainStatus>
+    <TrainLatitude>53.387</TrainLatitude>
+    <TrainLongitude>-6.16163</TrainLongitude>
+    <TrainCode>A102</TrainCode>
+    <TrainDate>23 Sep 2025</TrainDate>
+    <PublicMessage>A102\n06:50 - Dublin Connolly to Belfast (1 mins late)\nDeparted Kilbarrack next stop Drogheda</PublicMessage>
+    <Direction>Northbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
@@ -634,19 +652,19 @@
     <TrainStatus>R</TrainStatus>
     <TrainLatitude>53.3909</TrainLatitude>
     <TrainLongitude>-6.15672</TrainLongitude>
+    <TrainCode>E103</TrainCode>
+    <TrainDate>23 Sep 2025</TrainDate>
+    <PublicMessage>E103\n06:47 - Malahide to Greystones (0 mins late)\nArrived Howth Junction next stop Kilbarrack</PublicMessage>
+    <Direction>Southbound</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>R</TrainStatus>
+    <TrainLatitude>53.3909</TrainLatitude>
+    <TrainLongitude>-6.15672</TrainLongitude>
     <TrainCode>E901</TrainCode>
     <TrainDate>23 Sep 2025</TrainDate>
     <PublicMessage>E901\n05:39 - Greystones to Howth (2 mins late)\nDeparted Howth Junction next stop Bayside</PublicMessage>
     <Direction>Northbound</Direction>
-  </objTrainPositions>
-  <objTrainPositions>
-    <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.4032</TrainLatitude>
-    <TrainLongitude>-6.14839</TrainLongitude>
-    <TrainCode>E103</TrainCode>
-    <TrainDate>23 Sep 2025</TrainDate>
-    <PublicMessage>E103\n06:47 - Malahide to Greystones (1 mins late)\nDeparted Clongriffin next stop Howth Junction</PublicMessage>
-    <Direction>Southbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
@@ -686,11 +704,11 @@
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.712</TrainLatitude>
-    <TrainLongitude>-6.33538</TrainLongitude>
+    <TrainLatitude>53.6794</TrainLatitude>
+    <TrainLongitude>-6.24253</TrainLongitude>
     <TrainCode>P603</TrainCode>
     <TrainDate>23 Sep 2025</TrainDate>
-    <PublicMessage>P603\n06:27 - Dundalk to Bray (0 mins late)\nDeparted Drogheda next stop Laytown</PublicMessage>
+    <PublicMessage>P603\n06:27 - Dundalk to Bray (0 mins late)\nArrived Laytown next stop Gormanston</PublicMessage>
     <Direction>Southbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
