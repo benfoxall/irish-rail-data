@@ -2,20 +2,11 @@
 <ArrayOfObjTrainPositions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://api.irishrail.ie/realtime/">
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
-    <TrainLatitude>0</TrainLatitude>
-    <TrainLongitude>0</TrainLongitude>
-    <TrainCode>D426</TrainCode>
-    <TrainDate>02 Oct 2025</TrainDate>
-    <PublicMessage>D426\n23:30 - Grand Canal Dock to Hazelhatch (2 mins late)\nDeparted Inchicore Advance Starter next stop Park West and Cherry Orchard</PublicMessage>
-    <Direction>Southbound</Direction>
-  </objTrainPositions>
-  <objTrainPositions>
-    <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.2878</TrainLatitude>
-    <TrainLongitude>-6.12712</TrainLongitude>
+    <TrainLatitude>53.2812</TrainLatitude>
+    <TrainLongitude>-6.12289</TrainLongitude>
     <TrainCode>E134</TrainCode>
     <TrainDate>02 Oct 2025</TrainDate>
-    <PublicMessage>E134\n23:05 - Malahide to Greystones (1 mins late)\nDeparted Sandycove next stop Glenageary</PublicMessage>
+    <PublicMessage>E134\n23:05 - Malahide to Greystones (0 mins late)\nArrived Glenageary next stop Dalkey</PublicMessage>
     <Direction>Southbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -24,8 +15,17 @@
     <TrainLongitude>-6.17833</TrainLongitude>
     <TrainCode>E701</TrainCode>
     <TrainDate>02 Oct 2025</TrainDate>
-    <PublicMessage>E701\n23:20 - Greystones to Dublin Connolly (0 mins late)\nArrived Blackrock next stop Booterstown</PublicMessage>
+    <PublicMessage>E701\n23:20 - Greystones to Dublin Connolly (0 mins late)\nDeparted Blackrock next stop Booterstown</PublicMessage>
     <Direction>Northbound</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>R</TrainStatus>
+    <TrainLatitude>53.334</TrainLatitude>
+    <TrainLongitude>-6.37868</TrainLongitude>
+    <TrainCode>D426</TrainCode>
+    <TrainDate>02 Oct 2025</TrainDate>
+    <PublicMessage>D426\n23:30 - Grand Canal Dock to Hazelhatch (2 mins late)\nArrived Park West and Cherry Orchard next stop Clondalkin</PublicMessage>
+    <Direction>Southbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
@@ -42,7 +42,7 @@
     <TrainLongitude>-6.25425</TrainLongitude>
     <TrainCode>A623</TrainCode>
     <TrainDate>02 Oct 2025</TrainDate>
-    <PublicMessage>A623\n21:35 - Wexford to Dublin Connolly (1 mins late)\nArrived Tara Street next stop Dublin Connolly</PublicMessage>
+    <PublicMessage>A623\n21:35 - Wexford to Dublin Connolly (2 mins late)\nDeparted Tara Street next stop Dublin Connolly</PublicMessage>
     <Direction>Northbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -56,11 +56,11 @@
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.3629</TrainLatitude>
-    <TrainLongitude>-6.22753</TrainLongitude>
+    <TrainLatitude>53.373</TrainLatitude>
+    <TrainLongitude>-6.20442</TrainLongitude>
     <TrainCode>E951</TrainCode>
     <TrainDate>02 Oct 2025</TrainDate>
-    <PublicMessage>E951\n22:52 - Greystones to Howth (3 mins late)\nDeparted Clontarf Road next stop Killester</PublicMessage>
+    <PublicMessage>E951\n22:52 - Greystones to Howth (3 mins late)\nArrived Killester next stop Harmonstown</PublicMessage>
     <Direction>Northbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -78,7 +78,7 @@
     <TrainLongitude>-6.44205</TrainLongitude>
     <TrainCode>D334</TrainCode>
     <TrainDate>02 Oct 2025</TrainDate>
-    <PublicMessage>D334\n23:57 - Clonsilla to M3 Parkway (0 mins late)\nArrived Hansfield next stop Dunboyne</PublicMessage>
+    <PublicMessage>D334\n23:57 - Clonsilla to M3 Parkway (2 mins late)\nDeparted Hansfield next stop Dunboyne</PublicMessage>
     <Direction>Northbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -87,7 +87,7 @@
     <TrainLongitude>-6.15672</TrainLongitude>
     <TrainCode>D841</TrainCode>
     <TrainDate>02 Oct 2025</TrainDate>
-    <PublicMessage>D841\n23:40 - Grand Canal Dock to Dundalk (0 mins late)\nArrived Howth Junction next stop Clongriffin</PublicMessage>
+    <PublicMessage>D841\n23:40 - Grand Canal Dock to Dundalk (1 mins late)\nDeparted Howth Junction next stop Clongriffin</PublicMessage>
     <Direction>To Dundalk</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -96,7 +96,7 @@
     <TrainLongitude>-6.13678</TrainLongitude>
     <TrainCode>E704</TrainCode>
     <TrainDate>02 Oct 2025</TrainDate>
-    <PublicMessage>E704\n23:55 - Howth to Dublin Connolly (0 mins late)\nArrived Bayside next stop Howth Junction</PublicMessage>
+    <PublicMessage>E704\n23:55 - Howth to Dublin Connolly (1 mins late)\nDeparted Bayside next stop Howth Junction</PublicMessage>
     <Direction>Southbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -133,6 +133,15 @@
     <TrainCode>E263</TrainCode>
     <TrainDate>02 Oct 2025</TrainDate>
     <PublicMessage>E263\n22:46 - Howth to Bray(-5 mins late)\nTERMINATED Bray at 23:58</PublicMessage>
+    <Direction>Southbound</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>T</TrainStatus>
+    <TrainLatitude>53.3531</TrainLatitude>
+    <TrainLongitude>-6.24591</TrainLongitude>
+    <TrainCode>P768</TrainCode>
+    <TrainDate>02 Oct 2025</TrainDate>
+    <PublicMessage>P768\n23:13 - Maynooth to Dublin Connolly(-1 mins late)\nTERMINATED Dublin Connolly at 00:02</PublicMessage>
     <Direction>Southbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
