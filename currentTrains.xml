@@ -2,15 +2,6 @@
 <ArrayOfObjTrainPositions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://api.irishrail.ie/realtime/">
   <objTrainPositions>
     <TrainStatus>N</TrainStatus>
-    <TrainLatitude>51.8491</TrainLatitude>
-    <TrainLongitude>-8.29956</TrainLongitude>
-    <TrainCode>P501</TrainCode>
-    <TrainDate>05 Oct 2025</TrainDate>
-    <PublicMessage>P501\nCobh to Cork\nExpected Departure 08:30</PublicMessage>
-    <Direction>To Cork</Direction>
-  </objTrainPositions>
-  <objTrainPositions>
-    <TrainStatus>N</TrainStatus>
     <TrainLatitude>51.9212</TrainLatitude>
     <TrainLongitude>-8.17579</TrainLongitude>
     <TrainCode>P551</TrainCode>
@@ -26,6 +17,15 @@
     <TrainDate>05 Oct 2025</TrainDate>
     <PublicMessage>A491\nAthenry to Limerick\nExpected Departure 08:46</PublicMessage>
     <Direction>To Limerick</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>N</TrainStatus>
+    <TrainLatitude>53.3531</TrainLatitude>
+    <TrainLongitude>-6.24591</TrainLongitude>
+    <TrainCode>A142</TrainCode>
+    <TrainDate>05 Oct 2025</TrainDate>
+    <PublicMessage>A142\nDublin Connolly to Belfast\nExpected Departure 08:50</PublicMessage>
+    <Direction>Northbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>N</TrainStatus>
@@ -51,17 +51,8 @@
     <TrainLongitude>-7.18055</TrainLongitude>
     <TrainCode>A700</TrainCode>
     <TrainDate>05 Oct 2025</TrainDate>
-    <PublicMessage>A700\n08:00 - Dublin Heuston to Galway (0 mins late)\nArrived Portarlington next stop Tullamore</PublicMessage>
+    <PublicMessage>A700\n08:00 - Dublin Heuston to Galway (0 mins late)\nDeparted Portarlington next stop Tullamore</PublicMessage>
     <Direction>To Galway</Direction>
-  </objTrainPositions>
-  <objTrainPositions>
-    <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.3345</TrainLatitude>
-    <TrainLongitude>-6.43038</TrainLongitude>
-    <TrainCode>A302</TrainCode>
-    <TrainDate>05 Oct 2025</TrainDate>
-    <PublicMessage>A302\n08:30 - Dublin Heuston to Tralee (1 mins late)\nDeparted Kishoge next stop Portlaoise</PublicMessage>
-    <Direction>To Tralee</Direction>
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
@@ -69,8 +60,17 @@
     <TrainLongitude>-6.43038</TrainLongitude>
     <TrainCode>P200</TrainCode>
     <TrainDate>05 Oct 2025</TrainDate>
-    <PublicMessage>P200\n07:40 - Portlaoise to Dublin Heuston (4 mins late)\nArrived Kishoge next stop Clondalkin</PublicMessage>
+    <PublicMessage>P200\n07:40 - Portlaoise to Dublin Heuston (4 mins late)\nDeparted Kishoge next stop Clondalkin</PublicMessage>
     <Direction>To Dublin Heuston</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>R</TrainStatus>
+    <TrainLatitude>53.3353</TrainLatitude>
+    <TrainLongitude>-6.45233</TrainLongitude>
+    <TrainCode>A302</TrainCode>
+    <TrainDate>05 Oct 2025</TrainDate>
+    <PublicMessage>A302\n08:30 - Dublin Heuston to Tralee (0 mins late)\nDeparted Adamstown next stop Portlaoise</PublicMessage>
+    <Direction>To Tralee</Direction>
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
