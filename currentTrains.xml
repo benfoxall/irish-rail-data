@@ -29,15 +29,6 @@
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>N</TrainStatus>
-    <TrainLatitude>53.3464</TrainLatitude>
-    <TrainLongitude>-6.29461</TrainLongitude>
-    <TrainCode>D201</TrainCode>
-    <TrainDate>05 Oct 2025</TrainDate>
-    <PublicMessage>D201\nDublin Heuston to Portlaoise\nExpected Departure 10:50</PublicMessage>
-    <Direction>To Portlaoise</Direction>
-  </objTrainPositions>
-  <objTrainPositions>
-    <TrainStatus>N</TrainStatus>
     <TrainLatitude>53.3531</TrainLatitude>
     <TrainLongitude>-6.24591</TrainLongitude>
     <TrainCode>A146</TrainCode>
@@ -71,6 +62,15 @@
     <TrainDate>05 Oct 2025</TrainDate>
     <PublicMessage>A800\n09:42 - Athlone to Westport (4 mins late)\nDeparted Athlone Midland Yard next stop Roscommon</PublicMessage>
     <Direction>To Westport</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>R</TrainStatus>
+    <TrainLatitude>0</TrainLatitude>
+    <TrainLongitude>0</TrainLongitude>
+    <TrainCode>D201</TrainCode>
+    <TrainDate>05 Oct 2025</TrainDate>
+    <PublicMessage>D201\n10:50 - Dublin Heuston to Portlaoise (-8 mins late)\nArrived Inchicore Advance Starter next stop Park West and Cherry Orchard</PublicMessage>
+    <Direction>To Portlaoise</Direction>
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
@@ -177,7 +177,7 @@
     <TrainLongitude>-6.10333</TrainLongitude>
     <TrainCode>E904</TrainCode>
     <TrainDate>05 Oct 2025</TrainDate>
-    <PublicMessage>E904\n10:20 - Greystones to Howth (1 mins late)\nArrived Dalkey next stop Glenageary</PublicMessage>
+    <PublicMessage>E904\n10:20 - Greystones to Howth (2 mins late)\nDeparted Dalkey next stop Glenageary</PublicMessage>
     <Direction>Northbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -191,11 +191,11 @@
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.3206</TrainLatitude>
-    <TrainLongitude>-6.21112</TrainLongitude>
+    <TrainLatitude>53.3099</TrainLatitude>
+    <TrainLongitude>-6.19498</TrainLongitude>
     <TrainCode>E204</TrainCode>
     <TrainDate>05 Oct 2025</TrainDate>
-    <PublicMessage>E204\n10:02 - Howth to Bray (1 mins late)\nDeparted Sydney Parade next stop Booterstown</PublicMessage>
+    <PublicMessage>E204\n10:02 - Howth to Bray (0 mins late)\nArrived Booterstown next stop Blackrock</PublicMessage>
     <Direction>Southbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -227,15 +227,6 @@
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.3629</TrainLatitude>
-    <TrainLongitude>-6.22753</TrainLongitude>
-    <TrainCode>E903</TrainCode>
-    <TrainDate>05 Oct 2025</TrainDate>
-    <PublicMessage>E903\n09:39 - Greystones to Howth (1 mins late)\nDeparted Clontarf Road next stop Killester</PublicMessage>
-    <Direction>Northbound</Direction>
-  </objTrainPositions>
-  <objTrainPositions>
-    <TrainStatus>R</TrainStatus>
     <TrainLatitude>53.3704</TrainLatitude>
     <TrainLongitude>-6.50598</TrainLongitude>
     <TrainCode>P735</TrainCode>
@@ -254,11 +245,29 @@
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.3891</TrainLatitude>
-    <TrainLongitude>-6.07401</TrainLongitude>
+    <TrainLatitude>53.373</TrainLatitude>
+    <TrainLongitude>-6.20442</TrainLongitude>
+    <TrainCode>E903</TrainCode>
+    <TrainDate>05 Oct 2025</TrainDate>
+    <PublicMessage>E903\n09:39 - Greystones to Howth (0 mins late)\nArrived Killester next stop Harmonstown</PublicMessage>
+    <Direction>Northbound</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>R</TrainStatus>
+    <TrainLatitude>53.392</TrainLatitude>
+    <TrainLongitude>-6.11448</TrainLongitude>
     <TrainCode>E106</TrainCode>
     <TrainDate>05 Oct 2025</TrainDate>
-    <PublicMessage>E106\n10:42 - Howth to Greystones (0 mins late)\nDeparted Howth next stop Sutton</PublicMessage>
+    <PublicMessage>E106\n10:42 - Howth to Greystones (0 mins late)\nArrived Sutton next stop Bayside</PublicMessage>
+    <Direction>Southbound</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>R</TrainStatus>
+    <TrainLatitude>53.4169</TrainLatitude>
+    <TrainLongitude>-6.1512</TrainLongitude>
+    <TrainCode>P704</TrainCode>
+    <TrainDate>05 Oct 2025</TrainDate>
+    <PublicMessage>P704\n09:57 - Drogheda to Dublin Connolly (6 mins late)\nArrived Portmarnock next stop Clongriffin</PublicMessage>
     <Direction>Southbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -267,16 +276,7 @@
     <TrainLongitude>-6.46483</TrainLongitude>
     <TrainCode>P371</TrainCode>
     <TrainDate>05 Oct 2025</TrainDate>
-    <PublicMessage>P371\n10:40 - M3 Parkway to Clonsilla (0 mins late)\nArrived Dunboyne next stop Hansfield</PublicMessage>
-    <Direction>Southbound</Direction>
-  </objTrainPositions>
-  <objTrainPositions>
-    <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.4509</TrainLatitude>
-    <TrainLongitude>-6.15649</TrainLongitude>
-    <TrainCode>P704</TrainCode>
-    <TrainDate>05 Oct 2025</TrainDate>
-    <PublicMessage>P704\n09:57 - Drogheda to Dublin Connolly (7 mins late)\nDeparted Malahide next stop Portmarnock</PublicMessage>
+    <PublicMessage>P371\n10:40 - M3 Parkway to Clonsilla (2 mins late)\nDeparted Dunboyne next stop Hansfield</PublicMessage>
     <Direction>Southbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -314,14 +314,5 @@
     <TrainDate>05 Oct 2025</TrainDate>
     <PublicMessage>A142\n08:50 - Dublin Connolly to Belfast (5 mins late)\nDeparted Dundalk next stop Newry</PublicMessage>
     <Direction>Northbound</Direction>
-  </objTrainPositions>
-  <objTrainPositions>
-    <TrainStatus>T</TrainStatus>
-    <TrainLatitude>53.3531</TrainLatitude>
-    <TrainLongitude>-6.24591</TrainLongitude>
-    <TrainCode>A141</TrainCode>
-    <TrainDate>05 Oct 2025</TrainDate>
-    <PublicMessage>A141\n08:05 - Belfast to Dublin Connolly(15 mins late)\nTERMINATED Dublin Connolly at 10:35</PublicMessage>
-    <Direction>Southbound</Direction>
   </objTrainPositions>
 </ArrayOfObjTrainPositions>
