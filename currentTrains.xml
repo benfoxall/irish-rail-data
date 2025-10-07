@@ -11,15 +11,6 @@
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>N</TrainStatus>
-    <TrainLatitude>52.2667</TrainLatitude>
-    <TrainLongitude>-7.1183</TrainLongitude>
-    <TrainCode>A531</TrainCode>
-    <TrainDate>07 Oct 2025</TrainDate>
-    <PublicMessage>A531\nWaterford to Dublin Heuston\nExpected Departure 20:20</PublicMessage>
-    <Direction>To Dublin Heuston</Direction>
-  </objTrainPositions>
-  <objTrainPositions>
-    <TrainStatus>N</TrainStatus>
     <TrainLatitude>53.0371</TrainLatitude>
     <TrainLongitude>-7.30086</TrainLongitude>
     <TrainCode>P226</TrainCode>
@@ -43,6 +34,15 @@
     <TrainCode>E946</TrainCode>
     <TrainDate>07 Oct 2025</TrainDate>
     <PublicMessage>E946\nBray to Howth\nExpected Departure 20:27</PublicMessage>
+    <Direction>Northbound</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>N</TrainStatus>
+    <TrainLatitude>53.3223</TrainLatitude>
+    <TrainLongitude>-6.52356</TrainLongitude>
+    <TrainCode>P421</TrainCode>
+    <TrainDate>07 Oct 2025</TrainDate>
+    <PublicMessage>P421\nHazelhatch to Grand Canal Dock\nExpected Departure 20:40</PublicMessage>
     <Direction>Northbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -240,7 +240,7 @@
     <TrainLongitude>-6.10046</TrainLongitude>
     <TrainCode>A617</TrainCode>
     <TrainDate>07 Oct 2025</TrainDate>
-    <PublicMessage>A617\n17:55 - Rosslare Europort to Dublin Connolly (14 mins late)\nArrived Bray next stop Dun Laoghaire</PublicMessage>
+    <PublicMessage>A617\n17:55 - Rosslare Europort to Dublin Connolly (14 mins late)\nDeparted Bray next stop Dun Laoghaire</PublicMessage>
     <Direction>Northbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -312,7 +312,7 @@
     <TrainLongitude>-6.15206</TrainLongitude>
     <TrainCode>E128</TrainCode>
     <TrainDate>07 Oct 2025</TrainDate>
-    <PublicMessage>E128\n19:34 - Malahide to Greystones (4 mins late)\nArrived Salthill and Monkstown next stop Dun Laoghaire</PublicMessage>
+    <PublicMessage>E128\n19:34 - Malahide to Greystones (4 mins late)\nDeparted Salthill and Monkstown next stop Dun Laoghaire</PublicMessage>
     <Direction>Southbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -321,16 +321,16 @@
     <TrainLongitude>-6.17833</TrainLongitude>
     <TrainCode>A616</TrainCode>
     <TrainDate>07 Oct 2025</TrainDate>
-    <PublicMessage>A616\n20:08 - Dublin Connolly to Gorey (3 mins late)\nArrived Blackrock next stop Dun Laoghaire</PublicMessage>
+    <PublicMessage>A616\n20:08 - Dublin Connolly to Gorey (4 mins late)\nDeparted Blackrock next stop Dun Laoghaire</PublicMessage>
     <Direction>Southbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.3206</TrainLatitude>
-    <TrainLongitude>-6.21112</TrainLongitude>
+    <TrainLatitude>53.3099</TrainLatitude>
+    <TrainLongitude>-6.19498</TrainLongitude>
     <TrainCode>E256</TrainCode>
     <TrainDate>07 Oct 2025</TrainDate>
-    <PublicMessage>E256\n19:46 - Howth to Bray (0 mins late)\nDeparted Sydney Parade next stop Booterstown</PublicMessage>
+    <PublicMessage>E256\n19:46 - Howth to Bray (0 mins late)\nArrived Booterstown next stop Blackrock</PublicMessage>
     <Direction>Southbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -366,7 +366,7 @@
     <TrainLongitude>-6.37868</TrainLongitude>
     <TrainCode>A528</TrainCode>
     <TrainDate>07 Oct 2025</TrainDate>
-    <PublicMessage>A528\n20:20 - Dublin Heuston to Waterford (0 mins late)\nArrived Park West and Cherry Orchard next stop Clondalkin</PublicMessage>
+    <PublicMessage>A528\n20:20 - Dublin Heuston to Waterford (1 mins late)\nDeparted Park West and Cherry Orchard next stop Clondalkin</PublicMessage>
     <Direction>To Waterford</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -404,6 +404,15 @@
     <TrainDate>07 Oct 2025</TrainDate>
     <PublicMessage>E842\n19:31 - Greystones to Malahide (1 mins late)\nDeparted Tara Street next stop Dublin Connolly</PublicMessage>
     <Direction>Northbound</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>R</TrainStatus>
+    <TrainLatitude>53.3602</TrainLatitude>
+    <TrainLongitude>-7.79847</TrainLongitude>
+    <TrainCode>A811</TrainCode>
+    <TrainDate>07 Oct 2025</TrainDate>
+    <PublicMessage>A811\n18:25 - Westport to Dublin Heuston (0 mins late)\nDeparted Clonydonnin next stop Tullamore</PublicMessage>
+    <Direction>To Dublin Heuston</Direction>
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
@@ -452,11 +461,11 @@
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.3777</TrainLatitude>
-    <TrainLongitude>-6.34591</TrainLongitude>
+    <TrainLatitude>53.3755</TrainLatitude>
+    <TrainLongitude>-6.33135</TrainLongitude>
     <TrainCode>A913</TrainCode>
     <TrainDate>07 Oct 2025</TrainDate>
-    <PublicMessage>A913\n17:05 - Sligo to Dublin Connolly (14 mins late)\nArrived Navan Road Parkway next stop Broombridge</PublicMessage>
+    <PublicMessage>A913\n17:05 - Sligo to Dublin Connolly (15 mins late)\nArrived Ashtown next stop Broombridge</PublicMessage>
     <Direction>Southbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -470,11 +479,11 @@
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.3786</TrainLatitude>
-    <TrainLongitude>-6.19131</TrainLongitude>
+    <TrainLatitude>53.3815</TrainLatitude>
+    <TrainLongitude>-6.17699</TrainLongitude>
     <TrainCode>D833</TrainCode>
     <TrainDate>07 Oct 2025</TrainDate>
-    <PublicMessage>D833\n20:09 - Grand Canal Dock to Drogheda (3 mins late)\nDeparted Harmonstown next stop Howth Junction</PublicMessage>
+    <PublicMessage>D833\n20:09 - Grand Canal Dock to Drogheda (3 mins late)\nDeparted Raheny next stop Howth Junction</PublicMessage>
     <Direction>To Drogheda</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -488,20 +497,11 @@
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.4273</TrainLatitude>
-    <TrainLongitude>-7.93683</TrainLongitude>
-    <TrainCode>A811</TrainCode>
-    <TrainDate>07 Oct 2025</TrainDate>
-    <PublicMessage>A811\n18:25 - Westport to Dublin Heuston (0 mins late)\nDeparted Athlone next stop Tullamore</PublicMessage>
-    <Direction>To Dublin Heuston</Direction>
-  </objTrainPositions>
-  <objTrainPositions>
-    <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.4509</TrainLatitude>
-    <TrainLongitude>-6.15649</TrainLongitude>
+    <TrainLatitude>53.4169</TrainLatitude>
+    <TrainLongitude>-6.1512</TrainLongitude>
     <TrainCode>P622</TrainCode>
     <TrainDate>07 Oct 2025</TrainDate>
-    <PublicMessage>P622\n19:48 - Drogheda to Grand Canal Dock (0 mins late)\nDeparted Malahide next stop Portmarnock</PublicMessage>
+    <PublicMessage>P622\n19:48 - Drogheda to Grand Canal Dock (0 mins late)\nArrived Portmarnock next stop Clongriffin</PublicMessage>
     <Direction>To Grand Canal Dock</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -510,7 +510,7 @@
     <TrainLongitude>-6.23271</TrainLongitude>
     <TrainCode>D831</TrainCode>
     <TrainDate>07 Oct 2025</TrainDate>
-    <PublicMessage>D831\n19:19 - Grand Canal Dock to Drogheda (9 mins late)\nArrived Mosney next stop Laytown</PublicMessage>
+    <PublicMessage>D831\n19:19 - Grand Canal Dock to Drogheda (9 mins late)\nDeparted Mosney next stop Laytown</PublicMessage>
     <Direction>To Drogheda</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -601,15 +601,6 @@
     <TrainCode>E840</TrainCode>
     <TrainDate>07 Oct 2025</TrainDate>
     <PublicMessage>E840\n19:02 - Bray to Malahide(1 mins late)\nTERMINATED Malahide at 20:20</PublicMessage>
-    <Direction>Northbound</Direction>
-  </objTrainPositions>
-  <objTrainPositions>
-    <TrainStatus>T</TrainStatus>
-    <TrainLatitude>53.7243</TrainLatitude>
-    <TrainLongitude>-7.79574</TrainLongitude>
-    <TrainCode>D930</TrainCode>
-    <TrainDate>07 Oct 2025</TrainDate>
-    <PublicMessage>D930\n18:16 - Dublin Connolly to Longford(17 mins late)\nTERMINATED Longford at 20:19</PublicMessage>
     <Direction>Northbound</Direction>
   </objTrainPositions>
 </ArrayOfObjTrainPositions>
