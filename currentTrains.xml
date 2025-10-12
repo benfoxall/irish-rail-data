@@ -31,15 +31,6 @@
     <TrainStatus>N</TrainStatus>
     <TrainLatitude>53.3531</TrainLatitude>
     <TrainLongitude>-6.24591</TrainLongitude>
-    <TrainCode>D804</TrainCode>
-    <TrainDate>12 Oct 2025</TrainDate>
-    <PublicMessage>D804\nDublin Connolly to Drogheda\nExpected Departure 11:10</PublicMessage>
-    <Direction>Northbound</Direction>
-  </objTrainPositions>
-  <objTrainPositions>
-    <TrainStatus>N</TrainStatus>
-    <TrainLatitude>53.3531</TrainLatitude>
-    <TrainLongitude>-6.24591</TrainLongitude>
     <TrainCode>D905</TrainCode>
     <TrainDate>12 Oct 2025</TrainDate>
     <PublicMessage>D905\nDublin Connolly to Maynooth\nExpected Departure 11:17</PublicMessage>
@@ -218,38 +209,47 @@
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.3397</TrainLatitude>
-    <TrainLongitude>-6.23773</TrainLongitude>
+    <TrainLatitude>53.3433</TrainLatitude>
+    <TrainLongitude>-6.24829</TrainLongitude>
     <TrainCode>E904</TrainCode>
     <TrainDate>12 Oct 2025</TrainDate>
-    <PublicMessage>E904\n10:20 - Greystones to Howth (0 mins late)\nDeparted Grand Canal Dock next stop Dublin Pearse</PublicMessage>
+    <PublicMessage>E904\n10:20 - Greystones to Howth (0 mins late)\nArrived Dublin Pearse next stop Tara Street</PublicMessage>
     <Direction>Northbound</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>R</TrainStatus>
+    <TrainLatitude>53.347</TrainLatitude>
+    <TrainLongitude>-6.25425</TrainLongitude>
+    <TrainCode>E106</TrainCode>
+    <TrainDate>12 Oct 2025</TrainDate>
+    <PublicMessage>E106\n10:42 - Howth to Greystones (1 mins late)\nArrived Tara Street next stop Dublin Pearse</PublicMessage>
+    <Direction>Southbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
     <TrainLatitude>53.3531</TrainLatitude>
     <TrainLongitude>-6.24591</TrainLongitude>
-    <TrainCode>E106</TrainCode>
+    <TrainCode>D804</TrainCode>
     <TrainDate>12 Oct 2025</TrainDate>
-    <PublicMessage>E106\n10:42 - Howth to Greystones (1 mins late)\nDeparted Dublin Connolly next stop Tara Street</PublicMessage>
-    <Direction>Southbound</Direction>
+    <PublicMessage>D804\n11:10 - Dublin Connolly to Drogheda (1 mins late)\nDeparted Dublin Connolly next stop Howth Junction</PublicMessage>
+    <Direction>Northbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.3755</TrainLatitude>
-    <TrainLongitude>-6.33135</TrainLongitude>
+    <TrainLatitude>53.3752</TrainLatitude>
+    <TrainLongitude>-6.31388</TrainLongitude>
     <TrainCode>P735</TrainCode>
     <TrainDate>12 Oct 2025</TrainDate>
-    <PublicMessage>P735\n10:40 - Maynooth to Dublin Connolly (2 mins late)\nDeparted Ashtown next stop Pelletstown</PublicMessage>
+    <PublicMessage>P735\n10:40 - Maynooth to Dublin Connolly (1 mins late)\nDeparted Pelletstown next stop Broombridge</PublicMessage>
     <Direction>Southbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
-    <TrainLatitude>53.3816</TrainLatitude>
-    <TrainLongitude>-6.37149</TrainLongitude>
+    <TrainLatitude>53.3776</TrainLatitude>
+    <TrainLongitude>-6.39072</TrainLongitude>
     <TrainCode>D904</TrainCode>
     <TrainDate>12 Oct 2025</TrainDate>
-    <PublicMessage>D904\n10:50 - Dublin Connolly to Maynooth (0 mins late)\nArrived Castleknock next stop Coolmine</PublicMessage>
+    <PublicMessage>D904\n10:50 - Dublin Connolly to Maynooth (0 mins late)\nArrived Coolmine next stop Clonsilla</PublicMessage>
     <Direction>Northbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
@@ -310,10 +310,10 @@
     <TrainStatus>R</TrainStatus>
     <TrainLatitude>54.0007</TrainLatitude>
     <TrainLongitude>-6.41291</TrainLongitude>
-    <TrainCode>A142</TrainCode>
+    <TrainCode>A145</TrainCode>
     <TrainDate>12 Oct 2025</TrainDate>
-    <PublicMessage>A142\n08:50 - Dublin Connolly to Belfast (1 mins late)\nDeparted Dundalk next stop Newry</PublicMessage>
-    <Direction>Northbound</Direction>
+    <PublicMessage>A145\n10:05 - Belfast to Dublin Connolly (-3 mins late)\nArrived Dundalk next stop Drogheda</PublicMessage>
+    <Direction>Southbound</Direction>
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
@@ -332,14 +332,5 @@
     <TrainDate>12 Oct 2025</TrainDate>
     <PublicMessage>A801\n07:50 - Westport to Dublin Heuston(3 mins late)\nTERMINATED Park West and Cherry Orchard at 11:05</PublicMessage>
     <Direction>To Dublin Heuston</Direction>
-  </objTrainPositions>
-  <objTrainPositions>
-    <TrainStatus>T</TrainStatus>
-    <TrainLatitude>53.3891</TrainLatitude>
-    <TrainLongitude>-6.07401</TrainLongitude>
-    <TrainCode>E903</TrainCode>
-    <TrainDate>12 Oct 2025</TrainDate>
-    <PublicMessage>E903\n09:39 - Greystones to Howth(-2 mins late)\nTERMINATED Howth at 11:01</PublicMessage>
-    <Direction>Northbound</Direction>
   </objTrainPositions>
 </ArrayOfObjTrainPositions>
