@@ -91,15 +91,6 @@
     <Direction>To Ballina</Direction>
   </objTrainPositions>
   <objTrainPositions>
-    <TrainStatus>N</TrainStatus>
-    <TrainLatitude>54.2723</TrainLatitude>
-    <TrainLongitude>-8.48249</TrainLongitude>
-    <TrainCode>A901</TrainCode>
-    <TrainDate>13 Oct 2025</TrainDate>
-    <PublicMessage>A901\nSligo to Dublin Connolly\nExpected Departure 05:40</PublicMessage>
-    <Direction>Southbound</Direction>
-  </objTrainPositions>
-  <objTrainPositions>
     <TrainStatus>R</TrainStatus>
     <TrainLatitude>53.1442</TrainLatitude>
     <TrainLongitude>-6.06085</TrainLongitude>
@@ -114,8 +105,17 @@
     <TrainLongitude>-6.11317</TrainLongitude>
     <TrainCode>E800</TrainCode>
     <TrainDate>13 Oct 2025</TrainDate>
-    <PublicMessage>E800\n05:32 - Bray to Malahide (-1 mins late)\nArrived Killiney next stop Dalkey</PublicMessage>
+    <PublicMessage>E800\n05:32 - Bray to Malahide (0 mins late)\nDeparted Killiney next stop Dalkey</PublicMessage>
     <Direction>Northbound</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>R</TrainStatus>
+    <TrainLatitude>53.3015</TrainLatitude>
+    <TrainLongitude>-8.74855</TrainLongitude>
+    <TrainCode>A710</TrainCode>
+    <TrainDate>13 Oct 2025</TrainDate>
+    <PublicMessage>A710\n11:30 - Dublin Heuston to Galway (-468 mins late)\nDeparted Athenry next stop Oranmore</PublicMessage>
+    <Direction>To Galway</Direction>
   </objTrainPositions>
   <objTrainPositions>
     <TrainStatus>R</TrainStatus>
@@ -287,5 +287,14 @@
     <TrainDate>13 Oct 2025</TrainDate>
     <PublicMessage>P600\n05:27 - Dundalk to Grand Canal Dock (1 mins late)\nDeparted Dundalk next stop Drogheda</PublicMessage>
     <Direction>To Grand Canal Dock</Direction>
+  </objTrainPositions>
+  <objTrainPositions>
+    <TrainStatus>R</TrainStatus>
+    <TrainLatitude>54.2723</TrainLatitude>
+    <TrainLongitude>-8.48249</TrainLongitude>
+    <TrainCode>A901</TrainCode>
+    <TrainDate>13 Oct 2025</TrainDate>
+    <PublicMessage>A901\n05:40 - Sligo to Dublin Connolly (1 mins late)\nDeparted Sligo next stop Collooney</PublicMessage>
+    <Direction>Southbound</Direction>
   </objTrainPositions>
 </ArrayOfObjTrainPositions>
